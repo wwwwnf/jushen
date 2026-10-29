@@ -1,0 +1,27 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# training artifacts
+checkpoints/
+wandb/
+runs/
+*.ckpt
+*.safetensors
+*.onnx
+*.engine
+*.plan
+
+# data (dataset files are large; scripts will be committed)
+data/raw/
+data/processed/
+*.parquet
+
+# ide / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
